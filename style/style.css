@@ -57,4 +57,10 @@ h2 {
   color: black;
   font-weight: bolder;
   font-family: "Edu QLD Beginner", cursive;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: brown;
 }
