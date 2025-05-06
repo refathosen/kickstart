@@ -1,25 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  color: red;
+  color: rgb(255, 255, 255);
   font-style: italic;
-  font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-family: "Edu QLD Beginner", cursive;
   text-decoration: underline;
   /* text-decoration: line-through; */
   font-size: 40px;
   text-align: center;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 #heading-parent {
-  background-color: rgb(27, 31, 22);
+  /* background-color: rgb(27, 31, 22); */
+  /* background-image: linear-gradient(75deg, black, rgb(255, 0, 242)); */
+  background-image: linear-gradient(45deg, black, transparent),
+    url("../asset/coding.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  ); */
   padding: 100px 0;
   height: 300px;
-  width: 1100px;
+  max-width: 1100px;
+  /* max-width: 1100px; tumi jodi 1100px er beshi jayga pao tobe 1100px e neo, r nahole 100% jayga neo */
   margin: 60px auto 20px;
+  text-align: center;
+  border-radius: 10px;
   /* text-align: center; */
+}
+
+.btn {
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  color: black;
+  font-weight: bolder;
+  font-family: "Edu QLD Beginner", cursive;
 }
